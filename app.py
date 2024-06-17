@@ -47,7 +47,7 @@ while cap.isOpened():
     # Write the frame to the output video
     out.write(frame)
 
-    # Display the frame (optional)
+    # Display the frame
     cv2.imshow('Frame', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
